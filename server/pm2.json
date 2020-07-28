@@ -1,0 +1,13 @@
+{
+  "apps" : [{
+    "name": "Cervix-Admin",
+    "script": "./server.js",
+    "cwd":"./",
+    "args": "",
+    "merge_logs": true,
+    "log_file": "./log/combined.outerr.log",
+    "out_file": "./log/out.log",
+    "error_file": "./log/err.log",
+    "log_date_format": "YYYY-MM-DD HH:mm:ss"
+  }]
+}
